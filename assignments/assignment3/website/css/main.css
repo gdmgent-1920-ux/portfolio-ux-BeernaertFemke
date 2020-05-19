@@ -1,0 +1,5 @@
+body {
+    font-size: 25px;
+    color: var(--color-zwart);
+    font-family: var(--text-font);
+}
