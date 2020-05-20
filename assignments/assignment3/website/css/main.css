@@ -199,3 +199,25 @@ footer{
     margin: 12rem 0rem 0rem;
     padding-bottom: 4rem;
 }
+
+h2{
+    margin: 4rem 0rem;
+}
+.plantje{
+    height: 55vh;
+    width: 45vh;
+    margin: 2rem 1rem;
+    float: left;
+}
+
+.naam{
+    position: absolute;
+    background-color:var(--color-lichtgrijs);
+    padding: 0px 142px ;
+    margin: 20rem 15px 0rem;
+}
+
+.naam>h6{
+    
+    margin: 2rem 0rem 5rem 2rem;
+}
