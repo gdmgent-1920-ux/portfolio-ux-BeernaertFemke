@@ -99,7 +99,7 @@ const data = {
         {
             "text": "Website",
             "title": "Mijn website voor opdracht 3",
-            "href": "./assignments/assignment3/website/index.html",
+            "href": "./assignments/assignment3/website/home.html",
             "target": "_blank"
         }
     ]
