@@ -1,3 +1,6 @@
+
+/*ALGEMEEN*/
+
 body {
     font-size: 25px;
     color: var(--color-zwart);
@@ -8,6 +11,8 @@ p{
     font-weight: 200;
     margin: 1rem 10rem 0rem 0rem;
 }
+
+/*HEADER*/
 
 .logo {
     height: 13vh;
@@ -27,7 +32,14 @@ p{
 
 .buttonheader1{
     margin: 0rem 0rem 0rem 18rem;
+}
 
+.buttonheader:hover{
+    opacity:90%;
+}
+
+.buttonheader1:hover{
+    opacity: 90%;
 }
 
 .grootnavi{
@@ -39,7 +51,26 @@ p{
 
 }
 
+.grootnavi:hover{
+    color:var(--color-lichtgroen);
+}
+
+/*FOOTER*/
+
+footer{
+    background-color:var(--color-zwart);
+    color: var(--color-wit);
+    margin: 12rem 0rem 0rem;
+    padding-bottom: 4rem;
+}
+
+/*HOME HTML*/
+
 .waarom{
+    margin: 2rem 0rem;
+}
+
+.waarom>img{
     float:left;
     height: 55vh;
     width: 75vh;
@@ -50,7 +81,7 @@ p{
     float: right;;
     height: 80vh;
     width: 40vh;
-    margin: 0rem 6rem 0rem 5rem;
+    margin: 2rem 6rem 0rem 5rem;
 }
 
 h1{
@@ -72,63 +103,64 @@ span{
     text-decoration: underline;
 }
 
-.student{
+.student>img{
     float: left;
     height: 55vh;
     margin: 2rem 0rem 0rem 26rem;
 }
 
-.budget{
+.student>h1{
     margin: 5rem 0rem 0rem 2rem;
 }
 
-.budgetp{
+.student>p{
     position: absolute;
     margin: 9rem 2rem 0rem;
 }
 
-.plantjes3{
+.meer>img{
     float: left;
     height: 65vh;
     margin: 5rem 0rem;
+}
+
+.meer>h1{
+    margin:27rem 0rem 0rem 5px;
 }
 
 .ontdek{
      margin:6rem 0rem 0rem 2rem;
 }
 
-.meer{
-    margin:27rem 0rem 0rem 5px;
-}
 
-.morefriends{
+.ontdek>img{
     float: right;
     height: 65vh;
     width: 55vh;
-    margin: 5rem 5rem 0rem 0rem;
+    margin: 0rem 5rem 2rem 0rem;
 
 }
 
-.ontdek{
-    margin: 5rem 5rem 0rem 0rem;
+.ontdek>h1{
+    margin: 0rem 10rem 0rem 0rem;
 }
 
-.ontdekp{
+.ontdek>p{
     position: absolute;
-    margin: 12rem 5rem 10rem 0rem;
+    margin: 8rem 4rem 10rem 0rem;
 }
 
-.thuis{
+.zoveel>img{
     float: left;
     height: 65vh;
     margin:2rem 9rem 8rem;
 }
 
-.zoveel{
+.zoveel>h1{
     margin: 2rem 12rem;
 }
 
-.zoveelp{
+.zoveel>p{
     position: absolute;
     margin: 14rem 30rem 3rem ;
     color: var(--color-wit);
@@ -193,12 +225,7 @@ h3{
     margin: 0rem 2rem;
 }
 
-footer{
-    background-color:var(--color-zwart);
-    color: var(--color-wit);
-    margin: 12rem 0rem 0rem;
-    padding-bottom: 4rem;
-}
+/*FAVO HTML*/
 
 h2{
     margin: 4rem 0rem;
@@ -208,16 +235,123 @@ h2{
     width: 45vh;
     margin: 2rem 1rem;
     float: left;
+    border-style:solid;
+    border-color: var(--color-lichtgrijs);
+    border-width: 0px;
+}
+
+.plantje:hover{
+    border-color: var(--color-lichtgroen);
+    border-width: 2px;
 }
 
 .naam{
     position: absolute;
     background-color:var(--color-lichtgrijs);
-    padding: 0px 142px ;
-    margin: 20rem 15px 0rem;
+    opacity: 85%;
+    padding: 0px 43px ;
+    margin: 387px 16px 0rem;
 }
 
 .naam>h6{
-    
-    margin: 2rem 0rem 5rem 2rem;
+    position: absolute;
+    opacity: 100%;
+    font-size: 30px;
+    margin: 14px 0rem 1rem 0rem;
+}
+
+.naam>p{
+    margin: 1rem 0rem 1rem 12rem;
+    font-weight: 800;
+}
+
+i{
+    color:var(--color-wit);
+    font-size: 35px;
+}
+
+.favo{
+    position: absolute;
+    padding: 10px;
+    border-radius: 25%;
+    background-color: var(--color-lichtgroen);
+    margin: 3rem 17rem;
+}
+
+.favo:hover{
+    padding: 11px;
+}
+
+/*PLANTJE HTML*/
+
+.plantje2{
+    float: left;
+    height: 55vh;
+    width: 45vh;
+    margin: 2rem 1rem 0rem;
+    border-style:solid;
+    border-color: var(--color-lichtgrijs);
+    border-width: 0px;
+}
+
+.plantje2:hover{
+    border-color: var(--color-lichtgroen);
+    border-width: 2px;
+}
+
+.titel{
+    margin: 12rem 0rem 0rem;
+    opacity: 90%;
+}
+
+.titel>h6{
+    position: absolute;
+    color: var(--color-blauw);
+    font-size: 30px;
+    background-color: var(--color-lichtgrijs);
+    padding: 1rem 73px;
+    margin: 1rem 0rem 0rem 1rem;
+}
+
+.titel2{
+    margin: 12rem 0rem 0rem;
+    opacity: 90%;
+}
+
+
+.titel2>h6{
+    font-size:26px;
+    position: absolute;
+    color: var(--color-blauw);
+    background-color: var(--color-lichtgrijs);
+    padding: 21px 71px;
+    margin: 1rem 0rem 0rem 1rem;
+}
+
+.titel3{
+    margin: 12rem 0rem 0rem;
+    opacity: 90%;
+}
+
+.titel3>h6{
+    font-size:26px;
+    position: absolute;
+    color: var(--color-blauw);
+    background-color: var(--color-lichtgrijs);
+    padding: 21px 79px;
+    margin: 1rem 0rem 0rem 1rem;
+}
+
+.titel4{
+    margin: 12rem 0rem 0rem;
+    opacity: 90%;
+}
+
+.titel4>h6{
+    font-size:26px;
+    position: absolute;
+    color: var(--color-blauw);
+    background-color: var(--color-lichtgrijs);
+    padding: 21px 62px;
+    margin: 1rem 0rem 0rem 1rem;
 }
