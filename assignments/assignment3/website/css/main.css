@@ -19,6 +19,11 @@ p{
 
 /*HEADER*/
 
+.nav-links{
+    display: none;
+    content: none;
+}
+
 .logo {
     height: 13vh;
     margin: 10px
@@ -881,3 +886,4 @@ i{
     }
 
 }
+
